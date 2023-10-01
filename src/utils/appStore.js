@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import studentReducer from "./studentSlice";
 
 const appStore = configureStore({
-  reducer: {},
+  reducer: {
+    student: studentReducer,
+  },
 });
 
 export default appStore;

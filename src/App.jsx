@@ -6,6 +6,8 @@ import LandingPage from "./pages/LandingPage";
 import Chat from "./pages/Chat";
 import "react-chatbot-kit/build/main.css";
 import EnrollmentConfirmation from "./pages/EnrollmentConfirmation";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 const appRouter = createBrowserRouter([
   {
@@ -24,10 +26,10 @@ const appRouter = createBrowserRouter([
 
 function App() {
   return (
-    <>
+    <Provider store={appStore}>
       <Header />
       <RouterProvider router={appRouter} />
-    </>
+    </Provider>
   );
 }
 
