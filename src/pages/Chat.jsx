@@ -6,7 +6,7 @@ import ActionProvider from "../chatbot/ActionProvider";
 
 const Chat = () => {
   return (
-    <section className="Chat_Page bg-black">
+    <section className="Chat_Page ">
       <Chatbot
         config={config}
         messageParser={MessageParser}

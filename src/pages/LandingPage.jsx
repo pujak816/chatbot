@@ -4,7 +4,7 @@ const LandingPage = () => {
   return (
     <section className="landing_page flex flex-col justify-center align-middle h-screen mx-auto w-2/4 text-center">
       <div>
-        <h1 className="text-lg font-bold text-violet-500">
+        <h1 className="text-lg font-semibold text-violet-500 pb-4">
           Enter into Student Info System
         </h1>
         <Link to="/chat">
