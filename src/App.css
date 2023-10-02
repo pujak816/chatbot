@@ -1,4 +1,9 @@
+body {
+  background-color: black;
+}
+
 .react-chatbot-kit-chat-container {
   width: 100%;
   margin: auto;
+  background-color: white;
 }
